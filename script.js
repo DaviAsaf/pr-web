@@ -1,4 +1,4 @@
-function calcular(){
+function calcula(){
     let metros = Number(document.getElementById("metros").value);
     let tempo = Number(document.getElementById("tempo").value); 
     let velocidade = metros/tempo;
