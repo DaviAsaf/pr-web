@@ -1,0 +1,20 @@
+body{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    width: 100px;
+    background-color: black;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+p::before:hover{
+    background-color: blue;
+}
